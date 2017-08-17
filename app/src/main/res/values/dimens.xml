@@ -1,0 +1,37 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="custom_title_height">50dp</dimen>
+
+    <dimen name="text_size36px">18sp</dimen>
+    <dimen name="text_size40px">20sp</dimen>
+    <dimen name="text_size22px">11sp</dimen>
+    <dimen name="text_size20px">10sp</dimen>
+    <dimen name="text_size24px">12sp</dimen>
+    <dimen name="text_size16px">8sp</dimen>
+    <dimen name="text_size26px">13sp</dimen>
+    <dimen name="text_size28px">14sp</dimen>
+    <dimen name="text_size30px">15sp</dimen>
+    <dimen name="text_size34px">17sp</dimen>
+    <dimen name="text_size80px">40sp</dimen>
+    <dimen name="text_size38px">19sp</dimen>
+
+    <dimen name="size60px">30dp</dimen>
+
+    <dimen name="margin_left24px">12dp</dimen>
+    <dimen name="margin_left12px">6dp</dimen>
+    <dimen name="margin_right24px">12dp</dimen>
+    <dimen name="margin_right26px">13dp</dimen>
+
+
+    <dimen name="xian">0.5dp</dimen>
+    <dimen name="yuanjiao15px">7.5dp</dimen>
+    <dimen name="margintop70px">35dp</dimen>
+
+    <dimen name="corner5px">2.5sp</dimen>
+    <dimen name="corner10px">5sp</dimen>
+    <dimen name="corner8px">4sp</dimen>
+    <dimen name="corner15px">7.5sp</dimen>
+    <dimen name="corner20px">10sp</dimen>
+</resources>

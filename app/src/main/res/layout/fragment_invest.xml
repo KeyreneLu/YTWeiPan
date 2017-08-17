@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/investcolor">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/head"
+        />
+
+    <View
+        android:layout_below="@+id/include"
+        android:id="@+id/invest_xian"
+        android:background="@color/textcolor"
+        style="@style/xian"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_invest"
+        android:layout_below="@+id/invest_xian"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingTop="4dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingTop="4dp"
+            android:text="@string/cp"
+            android:layout_marginLeft="17dp"
+            android:textSize="@dimen/text_size24px"
+            android:textColor="@color/ninecolor"/>
+
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/mzj"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/text_size24px"
+                android:textColor="@color/ninecolor"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/mdj"
+                android:layout_alignParentRight="true"
+                android:textSize="@dimen/text_size24px"
+                android:textColor="@color/ninecolor"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.jdyy.ytwp.views.XListView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/rl_invest"
+        android:dividerHeight="8dp"
+        android:id="@+id/alv_invest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

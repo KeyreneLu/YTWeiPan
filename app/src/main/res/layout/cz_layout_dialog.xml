@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/zc_bg"
+    >
+    <RelativeLayout
+        android:layout_width="310dp"
+        android:layout_height="220dp"
+        android:background="@color/zc_bg">
+        <TextView
+            android:id="@+id/zf_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/qsrzfmm"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size36px"
+            android:textColor="@color/textcolor"/>
+        <View
+            android:id="@+id/zf_xian"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/xian"
+            android:background="@color/dl_bg"
+            android:layout_below="@id/zf_title"/>
+
+        <LinearLayout
+            android:id="@+id/ll_number"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/cz_dialog_bg"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/zf_xian"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_height="40dp">
+
+            <EditText
+                android:id="@+id/et_mima"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:inputType="numberPassword"
+                android:textColor="@color/ccolor"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:background="@null"/>
+            <ImageView
+                android:id="@+id/iv_delete"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/dl_xx"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wjmm"
+            android:textColor="@color/dl_bg"
+            android:textSize="@dimen/text_size24px"
+            android:layout_below="@+id/ll_number"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"/>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="@dimen/margin_left24px"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv_forget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_marginLeft="13dp"
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:text="@string/qx"
+                android:textColor="@color/dl_bg"
+                android:textSize="@dimen/text_size34px"
+                android:background="@drawable/fk_qx_bg"
+                />
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:text="@string/fk"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_size34px"
+                android:background="@drawable/fk_btn_selector"
+                android:layout_marginLeft="13dp"
+                android:layout_width="125dp"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

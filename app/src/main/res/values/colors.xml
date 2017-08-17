@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="xian">#dedfe0</color>
+    <color name="bg">#f7f7f9</color>
+    <color name="textcolor">#333333</color>
+    <color name="hintcolor">#b6b6bd</color>
+    <color name="dl_bg">#ff8a00</color>
+    <color name="tips">#999999</color>
+    <color name="zc_bg">#ffffff</color>
+    <color name="rb_bg">#2f2f2f</color>
+    <color name="setting">#232323</color>
+    <color name="ninecolor">#666666</color>
+    <color name="red">#fd3737</color>
+    <color name="green">#0ecf64</color>
+    <color name="ccolor">#333333</color>
+    <color name="black">#40999999</color>
+    <color name="fcolor">#ffcc00</color>
+    <color name="ve">#515151</color>
+    <color name="lv_item">#242424</color>
+    <color name="bsix">#b6b6bd</color>
+    <color name="dtwo">#d2d2d2</color>
+    <color name="ezero">#e0e0e4</color>
+    <color name="color78">#787878</color>
+    <color name="investcolor">#0f1418</color>
+    <color name="cccolor">#cccccc</color>
+    <color name="enine">#e9e9ee</color>
+    <color name="syxian">#dedfe0</color>
+    <color name="lucency">#00000000</color>
+    <color name="orange">#ff8932</color>
+    <color name="Black">#0f1418</color>
+    <color name="color8">#888888</color>
+    <color name="press_color">#ff7800</color>
+    <color name="black90">#90000000</color>
+
+    <color name="minute_grayLine">#2D3945</color>
+    <color name="minute_blue">#00D0FC</color>
+    <color name="minute_yellow">#E7B448</color>
+    <color name="minute_black">#101419</color>
+    <color name="minute_jizhun">#7F9976</color>
+    <color name="minute_zhoutv">#858D93</color>
+    <color name="marker_bg">#1C232E</color>
+    <color name="ma_5">#00ff00</color>
+    <color name="ma_10">#888888</color>
+    <color name="ma_20">#ffff00</color>
+
+    <drawable name="list_normal">#333333</drawable>
+    <drawable name="list_press">#000000</drawable>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/zc_bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/margin_left24px"
+        android:layout_marginRight="@dimen/margin_right24px"
+        android:background="@color/zc_bg">
+        <TextView
+            android:id="@+id/tv_team_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="师女士"
+            android:textSize="@dimen/text_size28px"
+            android:textColor="@color/textcolor"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/tv_team_phone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="15245451252"
+            android:textSize="@dimen/text_size28px"
+            android:textColor="@color/textcolor"
+            android:gravity="center"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/tv_team_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="8000.00"
+                android:textSize="@dimen/text_size28px"
+                android:textColor="@color/textcolor"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/tv_commission"
+                android:layout_width="70dp"
+                android:layout_height="32dp"
+                android:background="@drawable/rect_yellow"
+                android:text="@string/fy"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:textSize="@dimen/text_size30px"
+                android:layout_centerInParent="true"
+                android:visibility="gone"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

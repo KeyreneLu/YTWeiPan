@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/tv_invest_name"
+            android:layout_marginLeft="@dimen/margin_left24px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="石油10"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/text_size30px"/>
+        
+        <TextView
+            android:id="@+id/tv_invest_times"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="卖出2手"
+            android:layout_toRightOf="@+id/tv_invest_name"
+            android:textColor="@color/green"
+            android:textSize="@dimen/text_size30px"
+            android:layout_alignTop="@+id/tv_invest_name"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_invest_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016.9.14 10:55:44"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tv_invest_name"
+            android:layout_marginRight="@dimen/margin_right24px"/>
+
+        <TextView
+            android:id="@+id/tv_invest_price"
+            android:layout_below="@+id/tv_invest_name"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/margin_left24px"
+            android:textColor="@color/ninecolor"
+            android:textSize="@dimen/text_size26px"
+            />
+
+        <TextView
+            android:id="@+id/tv_invest_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_right24px"
+            android:text="-7.00"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tv_invest_price"/>
+    </RelativeLayout>
+
+</LinearLayout>

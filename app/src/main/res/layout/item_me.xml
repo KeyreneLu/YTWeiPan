@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_detail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/rect_white"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        >
+        <TextView
+            android:id="@+id/fh_species"
+            android:text="银通油110"
+            android:textSize="@dimen/text_size30px"
+            android:textColor="@color/textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/fh_price"
+            android:text="+190"
+            android:textSize="@dimen/text_size30px"
+            android:textColor="@color/textcolor"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/fh_state"
+        android:layout_width="20dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+</RelativeLayout>

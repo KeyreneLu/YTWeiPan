@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/zc_bg">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="240dp"
+        android:layout_weight="1">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="@dimen/text_size30px"
+            android:id="@+id/tv_year"
+            android:layout_height="40dp"
+            android:text="@string/qbsj"
+            android:gravity="center"
+            android:textColor="@color/ccolor"/>
+
+        <ListView
+            android:id="@+id/lv_year"
+            android:layout_below="@+id/tv_year"
+            android:divider="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="@dimen/xian"
+        android:layout_height="240dp"
+        android:background="@color/xian"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="240dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="@dimen/text_size30px"
+            android:id="@+id/tv_month"
+            android:layout_height="40dp"
+            android:text="@string/qbsj"
+            android:gravity="center"
+            android:textColor="@color/ccolor"/>
+
+        <ListView
+            android:id="@+id/lv_month"
+            android:layout_below="@+id/tv_month"
+            android:divider="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="@dimen/xian"
+        android:layout_height="240dp"
+        android:background="@color/xian"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="240dp"
+        android:layout_weight="1"
+        android:background="@color/bg">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="@dimen/text_size30px"
+            android:id="@+id/tv_day"
+            android:layout_height="40dp"
+            android:text="@string/qbsj"
+            android:gravity="center"
+            android:textColor="@color/ccolor"/>
+
+        <ListView
+            android:id="@+id/lv_day"
+            android:layout_below="@+id/tv_day"
+            android:divider="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+</LinearLayout>

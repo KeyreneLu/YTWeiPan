@@ -1,0 +1,375 @@
+<resources>
+    <string name="app_name">银通微盘</string>
+    <!-- 登录界面-->
+    <string name="zh">账号</string>
+    <string name="tips">请输入您的手机号</string>
+    <string name="mm">密码</string>
+    <string name="mm_tips">请输入密码</string>
+    <string name="dl">登录</string>
+    <string name="wjmm">忘记密码？</string>
+    <string name="xyh">新用户</string>
+    <string name="zhbwk">用户账号不能为空</string>
+    <string name="mmbnwk">用户密码不能为空</string>
+    <string name="yzmbnwk">验证码不能为空</string>
+    <string name="xyswty">协议尚未同意</string>
+
+    <!-- 修改密码界面-->
+    <string name="yzm">验证码</string>
+    <string name="yzm_tips">请输入验证码</string>
+    <string name="hqyzm">获取验证码</string>
+    <string name="qszmm">请设置密码</string>
+    <string name="mmgz">密码为6-12位字符至少包含数字、字母符号</string>
+    <string name="ydty">我已阅读并同意</string>
+    <string name="xy">《中银+协议》</string>
+    <string name="xg">修改</string>
+    <string name="sure">确认</string>
+    <string name="xgmm">修改密码</string>
+    <!-- 注册界面-->
+    <string name="yqm">邀请码</string>
+    <string name="yqm_xt">请输入好友的邀请码（选填）</string>
+    <string name="zc">注册</string>
+    <!--主界面-->
+    <string name="home">首页</string>
+    <string name="invest">交易</string>
+    <string name="market">行情</string>
+    <string name="find">发现</string>
+    <string name="me">我</string>
+
+    <!--个人中心-->
+    <string name="setting">设置</string>
+    <string name="ssyk">实时盈亏(元)</string>
+    <string name="qbye">余额(元)</string>
+    <string name="tx">出金</string>
+    <string name="cz">入金</string>
+    <string name="zd">历史</string>
+    <string name="cp">产品</string>
+    <string name="yk">盈亏(元)</string>
+    <string name="tzjl">暂无投资记录~</string>
+    <string name="pz">拍照</string>
+    <string name="csjxcxz">从手机相册选择</string>
+    <string name="qx">取消</string>
+    <string name="qx2">取 消</string>
+    <string name="qd">确 定</string>
+    <string name="qd2">确定</string>
+    <string name="xzsjjg">选择时间</string>
+    <string name="wdl">未登录</string>
+    <string name="none">--.--</string>
+
+    <!--提现界面-->
+    <string name="bczdktx">本次最多可提现(元)</string>
+    <string name="qsrtxje">请输入提现金额</string>
+    <string name="zhxx">账户信息</string>
+    <string name="dh">电话</string>
+    <string name="xm">姓名</string>
+    <string name="kh">卡号</string>
+    <string name="qrtx">确认提现</string>
+    <string name="mssf">免手续费</string>
+    <string name="tx_tip1">提现成功后将于</string>
+    <string name="tx_time">24小时</string>
+    <string name="tx_tip2">内到帐（节假日顺延）</string>
+    <string name="tx_tip3">本周您还可以免手续提现</string>
+    <string name="tx_num">1次</string>
+
+    <!--个人中心页面-->
+    <string name="wdwwm">我的二维码</string>
+    <string name="smrz">实名认证</string>
+    <string name="ssmm">手势密码</string>
+    <string name="gywm">关于我们</string>
+    <string name="cjwt">常见问题</string>
+    <string name="kfdh">客服电话</string>
+    <string name="yjfk">意见反馈</string>
+    <string name="tcdl">退出登录</string>
+    <string name="wrz">未认证</string>
+    <string name="yrz">已认证</string>
+    <string name="phone">400-027-5671</string>
+    <string name="bb">V1.2</string>
+    <string name="grzx">个人中心</string>
+
+    <!--充值界面-->
+    <string name="cz_tip">此处默认使用您绑定的银行卡进行充值</string>
+    <string name="cz_tip2">账户资金安全由中国人保（IPCC）100%承保</string>
+    <string name="qrcz">确认充值</string>
+    <string name="qsrczje">请输入充值金额</string>
+    <string name="ts">提示</string>
+    <string name="czswcg">充值尚未成功</string>
+    <string name="qsrzfmm">请输入支付密码</string>
+    <string name="fk">付款</string>
+
+    <!--账单界面-->
+    <string name="qblx">全部类型</string>
+    <string name="qbsj">全部时间</string>
+
+    <!--二維碼-->
+    <string name="ewm">邀请码：111</string>
+    <string name="sm">说明:</string>
+    <string name="tip">1.好友通过微信‘扫一扫’，扫描上方二维码，在打开的页面中完成注册，好友将成为您的一度人脉。</string>
+    <string name="ewm_tip2">2.若好友没有通过扫码直接进入注册页面，填写您的邀请码，同样可以变成您的一度人脉。</string>
+
+    <!--用戶反馈界面-->
+    <string name="fbhint">请在此填写您的意见以及建议</string>
+    <string name="tj">提交</string>
+    <string name="yhfk">用户反馈</string>
+    
+    <!--用户信息界面-->
+    <string name="info_tip">已绑定的银行卡若无法成功提现，请进入微信公众号联系微信客服进行变更。</string>
+
+    <!--实名认证-->
+    <string name="bdyhk">绑定银行卡</string>
+    <string name="sfz">身份证</string>
+    <string name="yh">银行</string>
+    <string name="rz_tip">请输入您的真实姓名</string>
+    <string name="rz_tip2">请输入您的身份证号</string>
+    <string name="rz_tip3">请输入您的银行卡号</string>
+    <string name="rz_tip4">银通微盘采用与银行一致的认证机制，在充值之前必须填写真实的身份信息</string>
+    <string name="rz_tip5">提现时，您的资金只能提取到实名信息对应的银行卡内</string>
+    <string name="rz_tip6">为了保证用户信息真实有效，认证过程中需用填写的银行卡充值1元到银通钱包</string>
+    <!--钱包余额-->
+    <string name="yuan">元</string>
+    <string name="kyye">可用余额（元）</string>
+    <string name="zyye">占用余额（元）</string>
+    <string name="ye">钱包余额</string>
+
+    <!--提现详情界面-->
+    <string name="jgxq">结果详情</string>
+    <string name="wc">完成</string>
+    <string name="jt">今天</string>
+    <string name="ksjssy">开始计算收益</string>
+    <string name="sydz">收益到账</string>
+
+    <!--发现界面-->
+    <string name="wdyb">我的银币</string>
+    <string name="ybs">1000个</string>
+    <string name="ybsc">银币商城</string>
+    <string name="lqy">领88元</string>
+    <string name="tzxd">投资小队</string>
+    <string name="jly">奖励550元</string>
+    <string name="xydzp">幸运大转盘</string>
+    <string name="bpbyb">奔跑吧银币</string>
+    <string name="yqmn">邀请码：0000</string>
+    <!--提现详情-->
+    <string name="zcsq">转出申请已提交，等待银行处理</string>
+    <string name="yjdzsj">预计到账时间</string>
+    <string name="txtip">提现一般为24小时内到账，周一到周四15:00之后提现次日到账，周五15:00之后提现将顺延至周一到账。国家法定节假日提现将顺延至工作日到账。</string>
+    
+    
+    <!--股票详情界面-->
+    <string name="ddbh">订单编号:</string>
+    <string name="xdsj">下单时间:</string>
+    <string name="xdl">下单量:</string>
+    <string name="mrfs">买入方式:</string>
+    <string name="jcj">建仓价:</string>
+    <string name="ykj">盈亏:</string>
+    <string name="dqcyj">当前持有价:</string>
+    <string name="zybzj">占用保证金:</string>
+    <string name="bzjzb">保证金占比:</string>
+    <string name="zyj">止盈价:</string>
+    <string name="zkj">止损价:</string>
+    <string name="sdpc">手动平仓</string>
+
+    <!--投资页面-->
+    <string name="mzj">买涨价</string>
+    <string name="mdj">买跌价</string>
+
+    <!--商城兑换-->
+    <string name="scdh">商城兑换</string>
+    <string name="gmsl">购买数量</string>
+    <string name="xj">小计</string>
+
+    <!--首页-->
+    <string name="zwjl">暂无任何记录</string>
+    <string name="gao">高:</string>
+    <string name="di">低:</string>
+    <string name="mz">买涨</string>
+    <string name="md">买跌</string>
+    <string name="mnxd">模拟下单</string>
+    <string name="zsxd">正式下单</string>
+    <string name="xd">下单</string>
+    <string name="hq">行情</string>
+    <string name="zx">资讯</string>
+    <string name="zbhd">直播喊单</string>
+    <string name="xsxt">新手学堂</string>
+    <string name="jrdlrc">今日登录人次</string>
+    <string name="jrylkj">今日盈利空间</string>
+    <string name="dbzdyl">单笔最大盈利</string>
+    <string name="zdxw">重大新闻</string>
+    <string name="more">更多</string>
+    <!--刷新加载 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载…</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    
+    <!--下单-->
+    <string name="xdls">下单量(手)</string>
+    <string name="syxjj">使用现金券</string>
+    <string name="order_tip">提示：默认数值即为不设置止损/止盈</string>
+    <string name="qrxd">确认下单</string>
+    <string name="one">1</string>
+    <string name="five">5</string>
+    <string name="ten">10</string>
+    <string name="twenty">20</string>
+    <string name="fifty">50</string>
+    <string name="hundred">100</string>
+    <string name="xjj">现金券</string>
+    <string name="sxsj">失效时间:</string>
+
+    <!--现金券界面-->
+    <string name="zwkyxjj">暂无可用现金券</string>
+    <string name="hbscdh">花币商城兑换</string>
+    <string name="smm">说明</string>
+    
+    <!--公告界面-->
+    <string name="gg">公告</string>
+    <string name="notice">银行\民生维护公告</string>
+    <string name="content">上午好，呼吸新鲜空气保持一个好心情</string>
+    <string name="xxzx">消息中心</string>
+
+    <!--客服弹窗-->
+    <string name="zxkf">咨询客服，了解详情</string>
+    <string name="QQ">1175131164</string>
+    <string name="dhzx">电话咨询</string>
+    
+    <!--我的花币-->
+    <string name="wdhb">我的花币</string>
+    <string name="wdybm">我的银币：</string>
+    <string name="ljgm">立即购买</string>
+
+    <!--银币充值-->
+    <string name="ybcz">银币充值</string>
+    <string name="yehb">余额：100花币</string>
+    <string name="hyb">100银币</string>
+    <string name="tyb">1000银币</string>
+    <string name="wyb">10000银币</string>
+    <string name="qtse">其他数额</string>
+    <string name="zffs">支付方式</string>
+    <string name="qbyek">钱包余额（</string>
+    <string name="kyk">可用）</string>
+    <string name="qrgm">确认购买</string>
+
+    <!--商城兑换界面-->
+    <string name="cpsm">产品说明</string>
+    <string name="syfs">使用方式</string>
+    <string name="yjsy">预计收益</string>
+    <string name="qrdh">确认兑换</string>
+    <string name="yb">银币</string>
+    <string name="xyou">现有</string>
+    <!--我的人脉界面-->
+    <string name="wdrm">我的人脉</string>
+    <string name="rmflz">人脉返利中....</string>
+    <string name="tdflz">团队返利中....</string>
+    <string name="dwflz">队伍返利中....</string>
+    <string name="zcrs">注册人数</string>
+    <string name="smrs">实名人数</string>
+    <string name="ytzrs">已投资人数</string>
+    <string name="declare1">1.人脉可为您带来丰厚的奖励</string>
+    <string name="declare2">2.平台有权对恶意注册用户按照</string>
+    <string name="fjtl">封禁条例</string>
+    <string name="jxfjcl">进行封禁处理</string>
+    <string name="declare3">3.返手续费：10%，请至账单中查看</string>
+    
+    <string name="sjzd">升级组队/团队</string>
+    <string name="ydrm">一度人脉</string>
+    <string name="edrm">二度人脉</string>
+    <string name="yqdhy">(邀请的好友)</string>
+    <string name="hydhy">(好友的好友)</string>
+    
+    <!--投资小队界面-->
+    <string name="declare4">3.返手续费：60%，请至账单中查看</string>
+    <string name="dzlb">队长列表</string>
+    <string name="dldw">(代理单位)</string>
+    <string name="wmdtd">我们的团队</string>
+    <string name="wmdfd">我们的分队</string>
+    <string name="bzjmx">保证金明细</string>
+
+    <!--我的队伍界面-->
+    <string name="wddw">我的队伍</string>
+    <string name="wddy">我的队员</string>
+    <string name="wdzk">我的直客</string>
+    <string name="wdfd">我的分队</string>
+    <string name="zkdhy">直客的好友</string>
+    <string name="symx">收益明细</string>
+    <string name="wdsy">我的收益(元)：</string>
+
+    <!--封禁条例-->
+    <string name="title">中银信通封禁条例</string>
+    <string name="content1">为了维护平台及用户数据安全和双方利益，</string>
+    <string name="content2">凡出现以下操作行为，将被立即封禁账户。</string>
+    <string name="action">1,使用注册机注册的用户;</string>
+    <string name="action2">2,使用同设备多次注册的用户;</string>
+    <string name="action3">3,使用验证码代收平台注册的用户;</string>
+    <string name="action4">4,使用游戏插件参与活动的用户;</string>
+    <string name="action5">5,利用程序漏洞参与活动的用户;</string>
+    <string name="action6">6,被平台审核人员判定为违规操作的用户;</string>
+    <string name="action7">7,虚假宣传平台服务信息的用户;</string>
+    <string name="action8">8,夸大散播平台服务项目的用户。</string>
+    <string name="content3">封禁的用户将无法使用平台所有服务功能。</string>
+    
+    <!--队伍详情界面-->
+    <string name="dwxq">队伍详情</string>
+    <string name="xs">姓氏</string>
+    <string name="lxfs">联系方式</string>
+    <string name="zhye">账户余额</string>
+    <string name="wdbzj">我的保证金(元)：</string>
+    <string name="jyks">(交易亏损)</string>
+    <string name="jyyl">(交易盈利)</string>
+    <string name="tjdl">添加代理</string>
+    <string name="fy">返佣</string>
+    
+    <!--弹框界面-->
+    <string name="szjyzsxf">上周交易总手续费(含小队)：</string>
+    <string name="szjyzct">上周交易总头寸(含小队)：</string>
+    <string name="fh">返回</string>
+    <string name="zz">转账</string>
+    <string name="srdlsjh">输入代理手机号</string>
+    <string name="bxwxjrm">(必须为下级人脉，否则添加失败)</string>
+    <string name="qrtj">确认添加</string>
+    <!--现金券说明-->
+    <string name="xjjsm">现金券说明</string>
+    <string name="ljsy">立即使用</string>
+
+    <!--下单界面-->
+    <string name="xzg">最高:</string>
+    <string name="xzd">最低:</string>
+    <string name="xjk">今开:</string>
+    <string name="xzs">昨收:</string>
+    <string name="xcjl">成交量:</string>
+    <string name="xcje">成交额:</string>
+    <string name="xfs">分时</string>
+    <string name="xwr">5日</string>
+    <string name="xrk">日K</string>
+    <string name="xzk">周K</string>
+    <string name="xyk">月K</string>
+    <string name="xyf">1分</string>
+    <string name="xwf">5分</string>
+    <string name="xswf">15分</string>
+    <string name="xssf">30分</string>
+    <string name="xlsf">60分</string>
+    <string name="xesf">240分</string>
+    <string name="xfz">分钟</string>
+    <string name="xmr">买入</string>
+    <string name="xmc">卖出</string>
+    <!--历史界面-->
+    <string name="zdy">自定义</string>
+    <string name="day">日</string>
+    <string name="week">周</string>
+    <string name="month">月份</string>
+    <string name="change">45-->46</string>
+    <!--手势密码界面-->
+    <string name="szssmm">设置手势密码</string>
+    <string name="qhzssmm">请绘制手势图案</string>
+    <string name="ss_tips">开启客户端时将启用手势密码</string>
+    <!--创建手势密码界面-->
+    <string name="gesture_tip1">你可以创建一个解锁图案，这样他人在借\n用你的手机时，将无法打开应用。</string>
+    <string name="cjssmm">创建手势密码</string>
+
+    <!--解锁界面-->
+    <string name="qhzssm">请绘制手势密码</string>
+    <string name="wjmmm">忘记密码?</string>
+
+   <string name="yfk">预付款</string>
+   <string name="kyyfk">可用预付款</string>
+   <string name="yfkbl">预付款比率(%)</string>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/head"/>
+    <View
+        android:id="@+id/hb_xian"
+        android:layout_below="@+id/include"
+        style="@style/xian"
+        />
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_below="@id/hb_xian"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/zc_bg">
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wdybm"
+                android:textSize="@dimen/text_size30px"
+                android:textColor="@color/textcolor"
+                android:layout_marginLeft="@dimen/margin_left24px"/>
+
+            <TextView
+                android:id="@+id/coin_sum"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2000个"
+                android:textColor="@color/dl_bg"
+                android:textSize="@dimen/text_size30px"
+                android:layout_marginLeft="5dp"/>
+
+            <Button
+                android:id="@+id/btn_bug"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/dl_btn_selector"
+                android:layout_marginRight="@dimen/margin_right24px"
+                android:textSize="@dimen/text_size30px"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/ljgm"/>
+        </LinearLayout>
+
+        <View
+            style="@style/xian"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <com.jdyy.ytwp.views.XListView
+        android:id="@+id/Xlv_record"
+        android:layout_below="@+id/rl_top"
+        android:dividerHeight="@dimen/xian"
+        android:divider="@color/xian"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</RelativeLayout>

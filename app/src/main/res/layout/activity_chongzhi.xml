@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/head"/>
+    <View
+        android:id="@+id/cz_xian"
+        android:layout_below="@+id/include"
+        style="@style/xian"/>
+    <View
+        android:id="@+id/cz_xian2"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/cz_xian"
+        style="@style/xian"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/tx_jine"
+        android:layout_below="@+id/cz_xian2"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/zc_bg">
+
+
+        <EditText
+            android:id="@+id/et_number"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:background="@null"
+            android:singleLine="true"
+            android:hint="@string/qsrczje"
+            android:textColorHint="@color/cccolor"
+            android:textColor="@color/textcolor"
+            android:layout_marginRight="@dimen/margin_right24px"
+            android:layout_marginLeft="@dimen/margin_left24px"/>
+
+    </LinearLayout>
+    <View
+        android:id="@+id/tx_xian4"
+        android:layout_below="@id/tx_jine"
+        style="@style/xian"/>
+    <View
+        android:id="@+id/tx_xian5"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/tx_xian4"
+        style="@style/xian"/>
+
+    <RelativeLayout
+        android:id="@+id/tx_zh"
+        android:background="@color/zc_bg"
+        android:layout_below="@+id/tx_xian5"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+        <TextView
+            android:text="@string/zhxx"
+            style="@style/MyTextStyle"/>
+
+        <View
+            android:layout_alignParentBottom="true"
+            style="@style/xian"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/cz_dh"
+        android:layout_below="@+id/tx_zh"
+        android:background="@color/zc_bg"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <TextView
+            style="@style/MyTextStyle"
+            android:text="@string/dh"/>
+
+        <TextView
+            android:id="@+id/tx_phone"
+            style="@style/MyRightTextStyle"/>
+
+        <View
+            android:layout_alignParentBottom="true"
+            style="@style/xian"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/cz_xm"
+        android:layout_below="@+id/cz_dh"
+        android:background="@color/zc_bg"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <TextView
+            style="@style/MyTextStyle"
+            android:text="@string/xm"/>
+
+        <TextView
+            android:id="@+id/tx_name"
+            style="@style/MyRightTextStyle"/>
+
+        <View
+            android:layout_alignParentBottom="true"
+            style="@style/xian"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/cz_kh"
+        android:layout_below="@+id/cz_xm"
+        android:background="@color/zc_bg"
+        android:layout_width="match_parent"
+        android:layout_height="44dp">
+
+        <TextView
+            style="@style/MyTextStyle"
+            android:text="@string/kh"/>
+
+        <TextView
+            android:id="@+id/tx_card"
+            style="@style/MyRightTextStyle"/>
+
+        <View
+            android:layout_alignParentBottom="true"
+            style="@style/xian"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/cz_tip"
+        android:orientation="horizontal"
+        android:layout_below="@+id/cz_kh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_margin="@dimen/margin_left24px"
+            android:src="@mipmap/icon_wxts"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/cz_tip"
+            android:textColor="@color/tips"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/text_size24px"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cz_tip2"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_cz"
+        android:layout_alignRight="@+id/btn_cz"
+        android:layout_alignEnd="@+id/btn_cz">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_margin="@dimen/margin_left24px"
+            android:src="@mipmap/wd_lvdun"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/cz_tip2"
+            android:textColor="@color/ninecolor"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/text_size24px"/>
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/btn_cz"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:text="@string/qrcz"
+        android:textSize="@dimen/text_size40px"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/dl_btn_selector"
+        android:layout_marginLeft="@dimen/margin_left24px"
+        android:layout_marginRight="@dimen/margin_right24px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

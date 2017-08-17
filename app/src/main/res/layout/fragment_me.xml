@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_me"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+    <include
+        android:id="@+id/include"
+        layout="@layout/head"
+    />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/include">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/rl_top"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@color/dl_bg"
+                android:gravity="center_vertical">
+
+                <com.jdyy.ytwp.views.CircleImageView
+                    android:id="@+id/civ_tou"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/w_tx"
+                    app:civ_border_color="@color/zc_bg"
+                    app:civ_border_width="3dp"/>
+
+                <ImageView
+                    android:id="@+id/pick_img"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignBottom="@+id/civ_tou"
+                    android:layout_alignEnd="@+id/civ_tou"
+                    android:layout_alignRight="@+id/civ_tou"
+                    android:src="@mipmap/wd_xgtx"/>
+
+                <TextView
+                    android:id="@+id/fh_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pick_img"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="7dp"
+                    android:elevation="1dp"
+                    android:text="@string/wdl"
+                    android:textColor="@color/bg"
+                    android:textSize="@dimen/text_size24px"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/fh_name"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:text="时间就是财富"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_size22px"/>
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/zx_xian1"
+                style="@style/xian"
+                android:layout_below="@id/rl_top"
+            />
+
+            <LinearLayout
+                android:id="@+id/ll_zh"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_below="@+id/zx_xian1"
+                android:background="@color/zc_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="@dimen/margin_left24px"
+                    android:layout_marginRight="@dimen/margin_left24px"
+                    android:layout_marginTop="@dimen/text_size28px"
+                    android:src="@mipmap/wd_xm"
+                />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        style="@style/MyLeftTextStyle"
+                        android:text="@string/zh"/>
+
+                    <View
+                        style="@style/xian"
+                        android:layout_alignParentBottom="true"
+                    />
+
+                    <TextView
+                        android:id="@+id/tv_zh"
+                        style="@style/MyRightTextStyle"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_ewm"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_below="@+id/ll_zh"
+                android:background="@color/zc_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="@dimen/margin_left24px"
+                    android:layout_marginRight="@dimen/margin_left24px"
+                    android:layout_marginTop="@dimen/text_size28px"
+                    android:src="@mipmap/wd_ewm"
+                />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        style="@style/MyLeftTextStyle"
+                        android:text="@string/wdwwm"/>
+
+                    <View
+                        style="@style/xian"
+                        android:layout_alignParentBottom="true"
+                    />
+
+                    <ImageView
+                        style="@style/MyImageViewStyle"
+                    />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_renzhen"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_below="@+id/ll_ewm"
+                android:background="@color/zc_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="@dimen/margin_left24px"
+                    android:layout_marginRight="@dimen/margin_left24px"
+                    android:layout_marginTop="@dimen/text_size28px"
+                    android:src="@mipmap/wd_smrz"
+                />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        style="@style/MyLeftTextStyle"
+                        android:text="@string/smrz"/>
+
+                    <View
+                        style="@style/xian"
+                        android:layout_alignParentBottom="true"
+                    />
+                    <TextView
+                        android:id="@+id/tv_renzhen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/iv_renzhen"
+                        android:text="@string/wrz"
+                        android:textColor="@color/textcolor"
+                        android:textSize="@dimen/text_size30px"/>
+                    <ImageView
+                        android:id="@+id/iv_renzhen"
+                        style="@style/MyImageViewStyle"
+                    />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_info"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_below="@+id/ll_renzhen"
+                android:background="@color/zc_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="@dimen/margin_left24px"
+                    android:layout_marginRight="@dimen/margin_left24px"
+                    android:layout_marginTop="@dimen/text_size28px"
+                    android:src="@mipmap/wd_zhxx"
+                />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        style="@style/MyLeftTextStyle"
+                        android:text="@string/zhxx"/>
+
+
+                    <ImageView
+                        style="@style/MyImageViewStyle"
+                    />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/zx_xian2"
+                style="@style/xian"
+                android:layout_below="@+id/ll_info"
+            />
+
+            <View
+                android:id="@+id/zx_xian3"
+                style="@style/xian"
+                android:layout_below="@+id/zx_xian2"
+                android:layout_marginTop="8dp"
+            />
+
+
+            <LinearLayout
+                android:id="@+id/ll_xiugai"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_below="@+id/zx_xian3"
+                android:background="@color/zc_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="@dimen/margin_left24px"
+                    android:layout_marginRight="@dimen/margin_left24px"
+                    android:layout_marginTop="@dimen/text_size28px"
+                    android:src="@mipmap/wd_xgmm"
+                />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        style="@style/MyLeftTextStyle"
+                        android:text="@string/xgmm"/>
+
+                    <View
+                        style="@style/xian"
+                        android:layout_alignParentBottom="true"
+                    />
+                    <ImageView
+                        style="@style/MyImageViewStyle"
+                    />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_shoushi"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_below="@+id/ll_xiugai"
+                android:background="@color/zc_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="@dimen/margin_left24px"
+                    android:layout_marginRight="@dimen/margin_left24px"
+                    android:layout_marginTop="@dimen/text_size28px"
+                    android:src="@mipmap/wd_ssmm"
+                />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        style="@style/MyLeftTextStyle"
+                        android:text="@string/ssmm"/>
+
+
+                    <ImageView
+                        android:id="@+id/iv_shoushi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/wd_off"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:id="@+id/zx_xian4"
+                style="@style/xian"
+                android:layout_below="@+id/ll_shoushi"
+            />
+
+            <View
+                android:id="@+id/zx_xian5"
+                style="@style/xian"
+                android:layout_below="@+id/zx_xian4"
+                android:layout_marginTop="8dp"
+            />
+
+            <LinearLayout
+                android:id="@+id/ll_about"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_below="@+id/zx_xian5"
+                android:background="@color/zc_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="@dimen/margin_left24px"
+                    android:layout_marginRight="@dimen/margin_left24px"
+                    android:layout_marginTop="@dimen/text_size28px"
+                    android:src="@mipmap/wd_gywm"
+                />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        style="@style/MyLeftTextStyle"
+                        android:text="@string/gywm"/>
+
+                    <View
+                        style="@style/xian"
+                        android:layout_alignParentBottom="true"
+                    />
+                    <TextView
+                        android:id="@+id/tv_about"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/iv_about"
+                        android:text="@string/bb"
+                        android:textColor="@color/textcolor"
+                        android:textSize="@dimen/text_size30px"/>
+                    <ImageView
+                        android:id="@+id/iv_about"
+                        style="@style/MyImageViewStyle"
+                    />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_problem"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_below="@+id/ll_about"
+                android:background="@color/zc_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="@dimen/margin_left24px"
+                    android:layout_marginRight="@dimen/margin_left24px"
+                    android:layout_marginTop="@dimen/text_size28px"
+                    android:src="@mipmap/wd_cjwt"
+                />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        style="@style/MyLeftTextStyle"
+                        android:text="@string/cjwt"/>
+
+                    <View
+                        style="@style/xian"
+                        android:layout_alignParentBottom="true"
+                    />
+                    <ImageView
+                        style="@style/MyImageViewStyle"
+                    />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_phone"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_below="@+id/ll_problem"
+                android:background="@color/zc_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="@dimen/margin_left24px"
+                    android:layout_marginRight="@dimen/margin_left24px"
+                    android:layout_marginTop="@dimen/text_size28px"
+                    android:src="@mipmap/wd_kfdh"
+                />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        style="@style/MyLeftTextStyle"
+                        android:text="@string/kfdh"/>
+
+                    <View
+                        style="@style/xian"
+                        android:layout_alignParentBottom="true"
+                    />
+                    <TextView
+                        android:id="@+id/tv_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@+id/iv_phone"
+                        android:text="@string/phone"
+                        android:textColor="@color/textcolor"
+                        android:textSize="@dimen/text_size30px"/>
+                    <ImageView
+                        android:id="@+id/iv_phone"
+                        style="@style/MyImageViewStyle"
+                    />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_below="@+id/ll_phone"
+                android:background="@color/zc_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="@dimen/margin_left24px"
+                    android:layout_marginRight="@dimen/margin_left24px"
+                    android:layout_marginTop="@dimen/text_size28px"
+                    android:src="@mipmap/wd_yjfk"
+                />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        style="@style/MyLeftTextStyle"
+                        android:text="@string/yjfk"/>
+
+
+                    <ImageView
+                        style="@style/MyImageViewStyle"
+                    />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                style="@style/xian"
+                android:layout_below="@+id/ll_feedback"/>
+
+            <Button
+                android:id="@+id/btn_exit"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@+id/ll_feedback"
+                android:layout_marginTop="9dp"
+                android:background="@color/zc_bg"
+                android:text="@string/tcdl"
+                android:textColor="@color/textcolor"
+                android:textSize="@dimen/text_size30px"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

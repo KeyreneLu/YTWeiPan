@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/head"/>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_below="@+id/include"
+        style="@style/xian"/>
+
+    <com.jdyy.ytwp.views.XListView
+        android:layout_below="@id/view1"
+        android:id="@+id/Xlv_notice"
+        android:dividerHeight="@dimen/xian"
+        android:divider="@color/xian"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

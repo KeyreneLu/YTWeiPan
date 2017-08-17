@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/rl_tou"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:background="@color/investcolor"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/qhzssm"
+        android:textSize="@dimen/text_size34px"/>
+
+    <TextView
+        android:id="@+id/text_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:textSize="@dimen/text_size26px"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_weight="1"
+        android:gravity="center"
+    >
+        <RelativeLayout
+            android:id="@+id/gesture_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_forget_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="@string/wjmmm"
+        android:textSize="@dimen/text_size30px"/>
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <FrameLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="204dp">
+
+        <com.jdyy.ytwp.views.ImageCycleView
+            android:id="@+id/ad_view"
+            android:layout_width="match_parent"
+            android:layout_height="204dp"/>
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/head"
+            />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/home_top"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/top"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_notice"
+            android:layout_width="16.5dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="@dimen/margin_left24px"
+            android:src="@mipmap/sy_lb"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/iv_notice"
+            android:layout_weight="1">
+
+            <ViewFlipper
+                android:id="@+id/viewflipper"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                tools:ignore="RtlHardcoded"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_width="@dimen/xian"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/iv_news"
+                android:background="@color/syxian"/>
+
+            <ImageView
+                android:id="@+id/iv_news"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/sy_gg"/>
+
+            <ImageView
+                android:id="@+id/iv_exist"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_right24px"
+                android:layout_marginTop="8dp"
+                android:src="@mipmap/sy_xhd"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/home_xian2"
+        style="@style/xian"
+        android:layout_below="@+id/home_top"
+        />
+
+    <View
+        android:id="@+id/home_xian3"
+        style="@style/xian"
+        android:layout_below="@id/home_xian2"
+        android:layout_marginTop="8dp"/>
+
+    <com.jdyy.ytwp.views.XListView
+        android:background="@color/colorPrimary"
+        android:divider="@color/xian"
+        android:dividerHeight="@dimen/xian"
+        android:id="@+id/xlv_news"
+        android:layout_below="@+id/home_xian3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

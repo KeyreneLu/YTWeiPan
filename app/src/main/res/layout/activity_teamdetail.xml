@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/head"/>
+
+    <View
+        android:id="@+id/view1"
+        style="@style/xian"
+        android:layout_below="@+id/include"/>
+
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/view1"
+        android:layout_marginLeft="@dimen/margin_left24px"
+        android:layout_marginRight="@dimen/margin_right24px">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/xs"
+            android:textColor="@color/ninecolor"
+            android:textSize="@dimen/text_size22px"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/lxfs"
+            android:textColor="@color/ninecolor"
+            android:textSize="@dimen/text_size22px"/>
+
+        <TextView
+            android:id="@+id/tv_balance"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/zhye"
+            android:textColor="@color/ninecolor"
+            android:textSize="@dimen/text_size22px"/>
+    </LinearLayout>
+
+    <com.jdyy.ytwp.views.XListView
+        android:id="@+id/Xlv_crew"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_below="@+id/ll_top"
+        android:divider="@color/xian"
+        android:dividerHeight="@dimen/xian"/>
+
+    <Button
+        android:id="@+id/btn_add_agent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/dl_bg"
+        android:text="@string/tjdl"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size40px"
+        android:visibility="gone"/>
+</LinearLayout>

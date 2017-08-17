@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/head"/>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_below="@+id/include"
+        style="@style/xian"/>
+    <RelativeLayout
+        android:id="@+id/rl_balance"
+        android:layout_below="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/zc_bg">
+
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size80px"
+            android:text="6666"
+            android:textColor="@color/textcolor"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yuan"
+            android:layout_alignTop="@+id/balance"
+            android:layout_marginTop="20dp"
+            android:textSize="@dimen/text_size36px"
+            android:textColor="@color/textcolor"
+            android:layout_toRightOf="@+id/balance"
+            android:layout_marginLeft="5dp"
+            />
+
+        <View
+            style="@style/xian"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_use"
+        android:layout_below="@+id/rl_balance"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:background="@color/zc_bg">
+
+        <TextView
+            android:id="@+id/tv_use"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="666"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/text_size36px"
+            android:layout_marginLeft="@dimen/margin_left24px"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kyye"
+            android:textSize="@dimen/text_size24px"
+            android:textColor="@color/dl_bg"
+            android:layout_marginLeft="@dimen/margin_left24px"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/wallet_xian"
+        style="@style/xian"
+        android:layout_below="@+id/ll_use"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_occupy"
+        android:layout_below="@+id/wallet_xian"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:background="@color/zc_bg">
+
+        <TextView
+            android:id="@+id/tv_occupy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="666"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/text_size36px"
+            android:layout_marginLeft="@dimen/margin_left24px"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zyye"
+            android:textSize="@dimen/text_size24px"
+            android:textColor="@color/dl_bg"
+            android:layout_marginLeft="@dimen/margin_left24px"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/wallet_xian2"
+        style="@style/xian"
+        android:layout_below="@+id/ll_occupy"
+        />
+
+    <com.jdyy.ytwp.views.XListView
+        android:id="@+id/rv_ticket"
+        android:layout_marginLeft="@dimen/margin_left24px"
+        android:layout_marginRight="@dimen/margin_left24px"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/wallet_xian2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

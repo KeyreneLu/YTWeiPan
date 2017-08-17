@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+     <include
+        android:id="@+id/include"
+        layout="@layout/head"/>
+
+    <View
+        android:id="@+id/cash_xian"
+        style="@style/xian"
+        android:layout_below="@+id/include"
+        />
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@mipmap/xianjinjuan"
+        android:id="@+id/imageView6"/>
+
+    <Button
+        android:id="@+id/btn_use_now"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/fk_normal_bg"
+        android:text="@string/ljsy"
+        android:textColor="@color/textcolor"
+        android:textSize="@dimen/text_size40px"
+        android:visibility="gone"
+        />
+</LinearLayout>

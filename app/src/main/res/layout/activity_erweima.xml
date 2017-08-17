@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/head"/>
+    <View
+        android:id="@+id/ewm_xian"
+        android:layout_below="@+id/include"
+        style="@style/xian"
+        />
+    
+    <RelativeLayout
+        android:layout_below="@+id/ewm_xian"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/margin_left24px"
+        android:layout_height="match_parent"
+        android:background="@drawable/ewm_rl_bg">
+        
+        <ImageView
+            android:id="@+id/iv_ewm"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/rect_white2"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/tv_yqm"
+            android:textSize="@dimen/text_size30px"
+            android:text="@string/ewm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_left24px"
+            android:textColor="@color/textcolor"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/iv_ewm"/>
+
+        <TextView
+            android:layout_below="@id/tv_yqm"
+            android:layout_marginTop="44dp"
+            android:text="@string/sm"
+            android:layout_marginLeft="20dp"
+            android:textSize="@dimen/text_size30px"
+            android:textColor="@color/tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"/>
+        <TextView
+            android:layout_marginRight="@dimen/margin_right24px"
+            android:textSize="@dimen/text_size30px"
+            android:lineSpacingExtra="6dp"
+            android:textColor="@color/tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:layout_marginTop="10dp"
+            android:text="@string/tip"
+            android:id="@+id/textView3"/>
+        <TextView
+            android:layout_marginRight="@dimen/margin_right24px"
+            android:lineSpacingExtra="6dp"
+            android:text="@string/ewm_tip2"
+            android:textSize="@dimen/text_size30px"
+            android:textColor="@color/tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/textView3"
+            android:layout_alignLeft="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_marginTop="6dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
